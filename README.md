@@ -15,10 +15,11 @@
 + getOauthAccessToken  (获取网页授权AccessToken)
  
 ### 问题小计
-###### 请先配置appID和secret
-###### 确保已经获取到了接口权限
- > redirect_uri 域名与后台配置不一致 10003
- *确保设置了授权回调页面域名*
+请先配置appID和secret<br>
+确保已经获取到了接口权限<br>
+##### 问题列表
++ redirect_uri 域名与后台配置不一致 10003<br>
+*确保设置了授权回调页面域名*
 
 ### 联系作者
 @Author：Return_归来<br>
