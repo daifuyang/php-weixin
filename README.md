@@ -21,10 +21,7 @@
  *确保设置了授权回调页面域名*
 
 ### 联系作者
-@Author  : Return_归来
-
-@Email   : belief_dfy@qq.com
-
-@QQ      ：1140444693
-
+@Author：Return_归来<br>
+@Email：belief_dfy@qq.com<br>
+@QQ      ：1140444693<br>
 @website ：www.dfy520.cn
