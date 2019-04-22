@@ -19,3 +19,9 @@
 ###### 确保已经获取到了接口权限
  > redirect_uri 域名与后台配置不一致 10003
  *确保设置了授权回调页面域名*
+
+### 联系作者
+@Author  : Return_归来
+@Email   : belief_dfy@qq.com
+@QQ      ：1140444693
+@website ：www.dfy520.cn
