@@ -1,6 +1,6 @@
 # php-weixin
 分享记录一些自己常用的公共工具库类
-# mp 微信公众号开发
+### *mp 微信公众号开发*
 ## indexController extends WeixinController
 该控制器为公众号入口项目包含
 + verify方法 （进行公众号接口配置信息）
@@ -13,7 +13,7 @@
 + checkAuth     　　   （用户无感授权）
 + getOauthAccessToken  (获取网页授权AccessToken)
 
-### 问题小计
+## 问题小计
 ###### 请先配置appID和secret
 ###### 确保已经获取到了接口权限
 * redirect_uri 域名与后台配置不一致 10003
