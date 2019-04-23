@@ -29,12 +29,14 @@ class IndexController extends WeixinController {
 * */
     public function getUserInfo()
     {
+        $path = I('param.path');
         $code = I('param.code');
         $userinfo = $this->getOauthAccessToken($code);
         $openId = $this->openid;
         if ($openId == ''){
             $this->checkAuth();
         }
-        print_r($openId);
+        session('openId',$openId);
+        $this->redirect($path);
     }
 }
