@@ -101,7 +101,9 @@ class WeixinController extends Controller
     public function checkAuth()
     {
         $appid = $this->appid;
-        $urlStr = urlencode(U("getUserInfo","","",true));
+        $path =  'https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+        $this->setLog($path);
+        $urlStr = urlencode(U("getUserInfo",array('path'=>$path),"",true));
         $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appid&redirect_uri=$urlStr&response_type=code&scope=snsapi_base&state=STATE#wechat_redirect";
         redirect($url);
     }
