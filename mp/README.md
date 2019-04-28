@@ -1,6 +1,6 @@
 ### php-weixin
 分享记录一些自己常用的公共工具库类
-## *<a href="https://github.com/daifuyang/php-weixin/tree/master/mp">mp 微信公众号开发</a>*
+## *mp 微信公众号开发*
 ### indexController extends WeixinController
 该控制器为公众号入口项目包含
 + verify方法 （进行公众号接口配置信息）
