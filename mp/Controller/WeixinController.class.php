@@ -9,7 +9,7 @@ use Think\Controller;
 class WeixinController extends Controller
 {
     public $appid = 'wx935432603092b4ae';
-    public $secret = 'a41a82d021ffcbefc161d2717f7e61c9';
+    public $secret = '*****************';
     public $access_token = '';
     public $openid = '';
     /*
